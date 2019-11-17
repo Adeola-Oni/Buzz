@@ -1,0 +1,54 @@
+.img-story-1{
+    
+}
+
+.box{  
+    height: 30vh;
+    width:90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-card-img:hover{
+    transform: scale(1.1)
+}
+
+.pic1 {
+    background-image: url(../images/images1.jpg);
+}
+
+.pic2 {
+    background-image: url(../images/nicki2.PNG);;
+}
+
+.pic3 {
+    background-image: url(../images/Nicki-Minaj.jpg);
+}
+
+.pic4{
+    background-image: url(../images/img4.jpg);
+}
+
+.card-img{
+    border-radius: 100%; 
+}
+.side-card{
+    color: red
+}
+
+.side-card-img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.follow-card{
+    box-shadow: inset 0 0 10px #57A0D3;
+}
+
+.side1-card{
+    /* box-shadow: 0 8px 6px -6px #57A0D3 */
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 0 0 5px #A45A52;
+
+}
+

@@ -1,0 +1,45 @@
+.explore {
+    text-align: center;
+    font-size: 15px;
+}
+
+.side-card-img{
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+  box-shadow: 0 0 20px #0F52BA;
+  /* 
+  border-radius: 50%; */
+}
+
+.text-side-img{
+  text-align: left;
+  
+}
+
+.side-img{
+  width:90%
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  float: left;
+}
+  
+.card-top-img{
+    height: 30vh;
+    width:90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.special-coverage-img{
+  padding-right: 3%;
+}
+
+.special-coverage-img2{
+  padding-right: 1%;
+  padding-left: 10%;
+}
