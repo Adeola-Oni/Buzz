@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import LandingPage from './App';
-import ExplorePage from './Explore/explore'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ExplorePage from './Explore/explore';
 import {Router, Route, Switch} from 'react-router';
 import * as serviceWorker from './serviceWorker';
 import {createBrowserHistory} from 'history';
