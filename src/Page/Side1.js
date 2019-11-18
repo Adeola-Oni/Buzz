@@ -14,7 +14,7 @@ function Content() {
     <div>
         <br/>
         <section>
-            <div style={{Align: 'center'}}>
+            <Card style={{Align: 'center'}}>
                 <h6 style={{textAlign: 'left'}}>Text Describing Images/Story</h6>
                 <Container>
                     <Row>
@@ -29,10 +29,10 @@ function Content() {
                         <li><img src={time}/> 2:56pm</li>
                     </ul>  
                 </Container>
-            </div>
+            </Card>
             <br/><br/>
         </section>
-        <br/>
+        <br/><br/>
         <section>
             
             <div style={{Align: 'center'}}>

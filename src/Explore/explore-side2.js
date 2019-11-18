@@ -16,9 +16,9 @@ function Exploreside2() {
   return (
     <div>
         <br/>
-        <h5 style={{color: '#0F52BA', textAlign:'left', marginLeft:'6%'}}> | POPULAR CHANNELS <t/> 
+        <h5 style={{color: '#0F52BA', textAlign:'left',}}> | POPULAR CHANNELS <t/> 
         <img src={comment} className='special-coverage-img2'/>VIEW SPECIAL COVERAGE</h5>
-        <div style={{padding: '3%', marginLeft: '6%', color: 'black'}} >
+        <div style={{padding: '3%', color: 'black'}} >
             <div style={{Align: 'center'}}>
                 <Row>
                     <Col sm={4} >
@@ -26,7 +26,7 @@ function Exploreside2() {
                         <img src={BBC} className='side-card-img' fluid style={{alignSelf:'center'}}/>
                         <p className='text-side-img'>Three Women shot dead in front of kenelly station west inies, london.</p>
                         <p><b>95K people added</b></p>
-                        <Button  size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center',
+                        <Button  className='big-button' size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center',
                          padding:'1%', backgroundColor:'transparent', boxShadow: ' 0 0 10px #fa8072', border:'1px solid #fa8072'}}>
                             ADD
                         </Button>
@@ -37,7 +37,7 @@ function Exploreside2() {
                         <img src={tasty} className='side-card-img' fluid style={{alignSelf:'center'}}/>
                         <p  className='text-side-img'>Three Women shot dead in front of kenelly station west inies, london.</p>
                         <p><b>95K people added</b></p>
-                        <Button  size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
+                        <Button className='big-button' size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
                         backgroundColor:'transparent', boxShadow: ' 0 0 10px #fa8072', border:'1px solid #fa8072'}}>
                             ADD
                         </Button>
@@ -48,7 +48,7 @@ function Exploreside2() {
                         <img src={SKY} className='side-card-img' fluid style={{alignSelf:'center'}}/>
                         <p  className='text-side-img'>Three Women shot dead in front of kenelly station west inies, london.</p>
                         <p><b>95K people added</b></p>
-                        <Button  size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
+                        <Button className='big-button' size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
                         backgroundColor:'transparent', boxShadow: ' 0 0 10px #fa8072', border:'1px solid #fa8072'}}>
                             ADD
                         </Button>
@@ -59,15 +59,15 @@ function Exploreside2() {
         </div>
 
         <br/><br/>
-        <h5 style={{color: '#0F52BA', textAlign:'left', marginLeft:'6%'}} > | BUZZ WORTHY </h5><br/>
-        <Card style={{padding: '1%', marginLeft: '6%', color: 'black', alignItems:'center'}} className='follow-card'>
+        <h5 style={{color: '#0F52BA', textAlign:'left',}} > | BUZZ WORTHY </h5><br/>
+        <Card style={{padding: '1%', color: 'black', alignItems:'center'}} className='follow-card'>
             <br/>
             <Row>
                 <Col sm={3}> <img src={BBC} className='side-card-img' fluid style={{alignSelf:'center'}}/> CNN</Col>
                 <Col sm={3}>255K Followers</Col>
                 <Col sm={3}>271K Posts</Col>
                 <Col sm={3}>
-                    <Button  size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
+                    <Button className='big-button' size="sm" style={{fontSize: '90%', width: '70%', color: 'black', alignSelf:'center', padding:'1%', 
                     backgroundColor:'transparent', boxShadow: ' 0 0 10px #fa8072', border:'1px solid #fa8072'}}>
                         FOLLOW
                     </Button>

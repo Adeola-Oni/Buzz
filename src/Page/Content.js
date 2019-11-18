@@ -8,10 +8,10 @@ function Content() {
     <div>
         <Container>
             <Row>
-                <Col sm={9}>
+                <Col md={8}>
                     <PageContentSide1 />
                 </Col>
-                <Col sm={3}>
+                <Col md={{ span: 3, offset: 1 }}>
                     <PageContentSide2 />
                 </Col>
             </Row>

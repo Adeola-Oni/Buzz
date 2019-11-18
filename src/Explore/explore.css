@@ -30,8 +30,8 @@ li{
   
 .card-top-img{
     height: 30vh;
-    width:90%;
-    background-size: contain;
+    width:100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -42,4 +42,8 @@ li{
 .special-coverage-img2{
   padding-right: 1%;
   padding-left: 10%;
+}
+
+.big-button:hover{
+  transform: scale(1.1)
 }

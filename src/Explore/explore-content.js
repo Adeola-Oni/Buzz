@@ -8,10 +8,10 @@ function ExploreContent() {
     <div>
         <Container>
             <Row>
-                <Col sm={3}>
+                <Col md={3}>
                     <ExploreSide1 />
                 </Col>
-                <Col sm={9}>
+                <Col md={{ span: 8, offset: 1 }}>
                     <ExploreSide2 />
                 </Col>
                 
