@@ -9,10 +9,10 @@ function ExploreContent() {
         <Container>
             <Row>
                 <Col sm={3}>
-                    <ExploreSideSide1 />
+                    <ExploreSide1 />
                 </Col>
                 <Col sm={9}>
-                    <ExploreSideSide2 />
+                    <ExploreSide2 />
                 </Col>
                 
             </Row>
