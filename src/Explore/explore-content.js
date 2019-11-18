@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import PageContentSide1 from './explore-side1'
-import PageContentSide2 from './explore-side2'
+import ExploreSide1 from './explore-side1'
+import ExploreSide2 from './explore-side2'
 
 function ExploreContent() {
   return (
@@ -9,10 +9,10 @@ function ExploreContent() {
         <Container>
             <Row>
                 <Col sm={3}>
-                    <PageContentSide1 />
+                    <ExploreSideSide1 />
                 </Col>
                 <Col sm={9}>
-                    <PageContentSide2 />
+                    <ExploreSideSide2 />
                 </Col>
                 
             </Row>
